@@ -1,0 +1,21 @@
+{
+  "modListVersion": 2,
+  "modList": [{
+    "modid": "reacharound",
+    "name": "Reacharound",
+    "description": "Quark-style block placement utility with horizontal and vertical reach-around placement, crosshair indicator and optional edge snapping.",
+    "version": "${modVersion}",
+    "mcversion": "1.7.10",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["Bejiukue"],
+    "credits": "Inspired by Quark by Vazkii / Violet Moon.",
+    "logoFile": "logo.png",
+    "screenshots": [],
+    "parent": "",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "useDependencyInformation": false
+  }]
+}
