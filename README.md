@@ -20,19 +20,6 @@
 Если навести прицел на самый край верхней (или нижней) грани блока, блок встаёт сбоку. Включается в конфиге
 (`edge_snap.enabled = true`), нужен на клиенте и на сервере. Плиты продолжают линию той же половинкой.
 
-## Сборка (IntelliJ IDEA)
-
-1. Распакуйте проект в папку без пробелов и русских букв, например `F:\dev\reacharound`.
-2. `File -> Open...` выберите эту папку (где лежит `build.gradle.kts`), нажмите `Trust Project`.
-3. `File -> Settings -> Build, Execution, Deployment -> Build Tools -> Gradle`, в поле **Gradle JDK** выберите **JDK 25**
-   и нажмите "Reload All Gradle Projects" в окне Gradle.
-4. Дождитесь окончания синхронизации (в первый раз долго).
-5. Дважды `Ctrl`, `gradle spotlessApply`, Enter. Затем дважды `Ctrl`, `gradle build`, Enter.
-6. Готовый мод лежит в `build\libs\`, берите jar без `-dev` и `-sources`. В имени версии будет `NO-GIT-TAG-SET`,
-   потому что проект не под git: сообщение в логе безвредно.
-
-Проверка без вашей сборки: `gradle runClient` запускает чистый Minecraft с модом.
-
 ## Настройки (`config/reacharound.cfg`)
 
 Если вы запускали прошлую версию, удалите старый `config/reacharound.cfg`, чтобы создался новый.
